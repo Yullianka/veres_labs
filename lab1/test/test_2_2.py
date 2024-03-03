@@ -23,6 +23,8 @@ class TestIsListMonotonic(unittest.TestCase):
         result = is_list_monotonic([])
         self.assertEqual(result, True)
 
+   
+
 
 if __name__ == "__main":
     unittest.main()
