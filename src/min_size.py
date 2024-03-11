@@ -1,4 +1,4 @@
-def min_size(N,W,H):   # N - the number of leaves W - Width of leaf H - height of leaf
+def min_size(N, W,H):   # N - the number of leaves W - Width of leaf H - height of leaf
     if not 1 <= N <= 1012 or not 1 <= W <= 109 or not 1 <= H <= 109:
         return None
 
@@ -21,6 +21,7 @@ def min_size(N,W,H):   # N - the number of leaves W - Width of leaf H - height o
             left = mid + 1
 
     return min_size_of_board
+
 
 
 

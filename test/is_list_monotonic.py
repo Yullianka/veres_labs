@@ -1,5 +1,5 @@
 import unittest
-from lab1.src.algo1_2_2 import *
+from src.is_list_monotonic import *
 
 
 class TestIsListMonotonic(unittest.TestCase):
