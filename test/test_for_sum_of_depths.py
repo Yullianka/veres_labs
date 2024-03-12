@@ -1,7 +1,7 @@
 import unittest
 from src.the_sum_of_depths import *
 
-class TestIsListMonotonic(unittest.TestCase):
+class TestSumOfDepths(unittest.TestCase):
     def test1(self):
         root = Node(3)
         root.left = Node(9)

@@ -1,7 +1,7 @@
 import unittest
-from src.min_size import *
+from src.min_size_of_board import *
 
-class TestIsListMonotonic(unittest.TestCase):
+class TestMinSize(unittest.TestCase):
     def test1(self):
         result = min_size(10,2,3)
         self.assertEqual(result, 9)
