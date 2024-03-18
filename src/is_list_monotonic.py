@@ -5,6 +5,7 @@ def is_list_monotonic(array: list):
 
     if length == 1:
         return True
+    
 
 
     for i in range(length - 1):

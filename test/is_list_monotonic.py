@@ -1,5 +1,5 @@
 import unittest
-from lab1.src.algo1_2_2 import *
+from src.is_list_monotonic import *
 
 
 class TestIsListMonotonic(unittest.TestCase):
@@ -22,6 +22,8 @@ class TestIsListMonotonic(unittest.TestCase):
     def test_when_list_is_empty(self):
         result = is_list_monotonic([])
         self.assertEqual(result, True)
+
+   
 
 
 if __name__ == "__main":
