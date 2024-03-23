@@ -48,18 +48,3 @@ class HeapQueue:
             print("Next task priority:", i.priority)
 
 
-if __name__ == "__main__":
-    heap = HeapQueue()
-    heap.insert("Buy groceries", 2)
-    heap.insert("Pay bills", 1)
-    heap.insert("Study for exam", 3)
-    heap.insert("Go to gym", 2)
-    heap.insert("exam", 10)
-    heap.insert("Study", 5)
-
-    print("Heap Queue:")
-    heap.print_queue()
-    print(heap.delete())
-    heap.print_queue()
-    print(heap.delete())
-    heap.print_queue()
