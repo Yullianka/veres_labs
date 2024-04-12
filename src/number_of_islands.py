@@ -38,7 +38,7 @@ def number_of_islands(filename_read, filename_write):
             if graph[y][x] == 1:
                 if (y, x) not in visited:
                     count += 1
-                bfs(graph, x, y, visited)
+                    bfs(graph, x, y, visited)
     write_output(filename_write, count)
 
 

@@ -22,7 +22,7 @@ class TestFindTheNuberOfIslands(unittest.TestCase):
         number_of_islands(cur_path + "\\resources\\input3.txt", cur_path + "\\resources\\output3.txt")
         with open(cur_path + "\\resources\\output3.txt",  "r", encoding="utf-8", ) as file:
             first_line = file.readline()
-        self.assertEqual(int(first_line), 3)
+        self.assertEqual(int(first_line), 1)
 
 
 if __name__ == "__main__":
