@@ -34,7 +34,7 @@ input_filename = "../test/resources/electricity.in.txt"
 output_filename = "../test/resources/electricity.out.txt"
 
 
-distance,height_of_the_pillars = read_input(input_filename)
+distance, height_of_the_pillars = read_input(input_filename)
 
 result = round(calculate_rope(distance, height_of_the_pillars), 2)
 
