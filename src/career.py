@@ -1,3 +1,5 @@
+import os
+
 class Node:
     def __init__(self, value):
         self.value = value
@@ -28,7 +30,7 @@ def max_experience(graph):
     return graph[i][j].value
 
 
-with open('../test/resources/career.in.txt', 'w') as file:
+with open('./test/resources/career_in.txt', 'w') as file:
     file.write("4\n")
     file.write("4\n")
     file.write("3 1\n")
@@ -37,5 +39,5 @@ with open('../test/resources/career.in.txt', 'w') as file:
 
 expected_output = "12\n"
 
-with open('../test/resources/career.out.txt', 'w') as file:
+with open('./test/resources/career_out.txt', 'w') as file:
     file.write(expected_output)

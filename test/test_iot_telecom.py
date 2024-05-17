@@ -19,13 +19,13 @@ class TestPrimAlgorithm(unittest.TestCase):
         return graph
 
     def test1(self):
-        file_path = "resources/communication_wells.csv"
+        file_path = "test/resources/communication_wells.csv"
         graph = self.load_graph_from_csv(file_path)
         find_cable_length = min_optical_cable_length(graph)
         self.assertEqual(29, find_cable_length)
 
     def test2(self):
-        file_path = "resources/communication_wells2.csv"
+        file_path = "test/resources/communication_wells2.csv"
         graph = self.load_graph_from_csv(file_path)
         find_cable_length = min_optical_cable_length(graph)
         self.assertEqual(2, find_cable_length)

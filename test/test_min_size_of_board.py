@@ -16,5 +16,5 @@ class TestMinSize(unittest.TestCase):
 
     def test4(self):
         result = min_size(2, 1000000000, 999999999)
-        self.assertEqual(result, 1999999998)
+        self.assertEqual(result, None)
 

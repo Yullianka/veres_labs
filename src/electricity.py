@@ -30,8 +30,8 @@ def write_output(filename, result):
         file.write(str(result))
 
 
-input_filename = "../test/resources/electricity.in.txt"
-output_filename = "../test/resources/electricity.out.txt"
+input_filename = "./test/resources/electricity.in.txt"
+output_filename = "./test/resources/electricity.out.txt"
 
 
 distance, height_of_the_pillars = read_input(input_filename)
